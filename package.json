@@ -2,7 +2,7 @@
   "name": "availity",
   "description": "Availity Command-line Interface (CLI)",
   "version": "0.1.0",
-  "homepage": "https://git.availity.com/projects/PSP/repos/availity-cli/browse",
+  "homepage": "https://github.com/Availity/availity-cli",
   "authors": [
     {
       "name": "Rob Warner",
@@ -31,15 +31,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.availity.com:7999/psp/availity-cli.git"
+    "url": "ssh://git@github.com:Availity/availity-cli.git"
   },
   "bugs": {
-    "url": "https://git.availity.com/projects/PSP/repos/availity-cli/browse"
+    "url": "https://github.com/Availity/availity-cli/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://git.availity.com/projects/PSP/repos/availity-cli/browse/LICENSE-MIT"
+      "url": "https://github.com/Availity/availity-cli/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/availity",
