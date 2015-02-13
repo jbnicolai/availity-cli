@@ -1,0 +1,7 @@
+node_modules
+
+# Added for Cloud9
+.c9
+
+# Added for Web Storm
+.idea
