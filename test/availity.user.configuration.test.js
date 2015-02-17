@@ -53,8 +53,6 @@ describe('user configuration', function() {
 
   it('should store token', function() {
     userConfiguration.setCredentials('my_user_id', 'my_token', 'test');
-    var keytar = require('keytar');
-    keytar.getPassword('availity-cli:test', 'my_user_id').should.equal('my_token');
-    keytar.deletePassword('availity-cli', 'my_user_id');
+    userConfiguration.getCredentials('test').should.equal('my_token');
   });
 });
