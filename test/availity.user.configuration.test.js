@@ -55,4 +55,9 @@ describe('user configuration', function() {
     userConfiguration.setCredentials('my_user_id', 'my_token', 'test');
     userConfiguration.getCredentials('test').should.equal('my_token');
   });
+
+  it('should return null for token when not logged in', function() {
+    var should = require('chai').should();
+    should.equal(userConfiguration.getCredentials('qa'), null);
+  });
 });
