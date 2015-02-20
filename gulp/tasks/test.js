@@ -7,10 +7,10 @@ var chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 chai.should();
 
-logger.mute();
-
 gulp.task('test', function() {
+  logger.mute();
   var config = require('../config').test;
   gulp.src(config.src)
     .pipe(mocha({ reporter: hollywood }));
 });
+
