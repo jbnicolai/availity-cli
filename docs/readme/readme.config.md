@@ -2,6 +2,8 @@
 
 > {%= description %}
 
+{%= docs("badges") %}
+
 # Table of Contents
 {%= toc() %}
 
